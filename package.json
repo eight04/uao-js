@@ -1,0 +1,16 @@
+{
+  "name": "uao-js",
+  "version": "0.0.0",
+  "description": "An UAO encoder/decoder.",
+  "main": "index.js",
+  "author": "eight04 <eight04@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "encoding", "big5", "uao", "unicode at on"
+  ],
+  "scripts": {
+    "test": "eslint *.js test/*.js && node test/test.js",
+    "preversion": "npm test",
+    "postversion": "git push --follow-tags"
+  }
+}
