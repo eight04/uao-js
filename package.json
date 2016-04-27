@@ -8,9 +8,14 @@
   "keywords": [
     "encoding", "big5", "uao", "unicode at on"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eight04/uao-js.git"
+  },
+  "homepage": "https://github.com/eight04/uao-js#readme",
   "scripts": {
     "test": "eslint *.js test/*.js && node test/test.js",
     "preversion": "npm test",
-    "postversion": "git push --follow-tags"
+    "postversion": "git push --follow-tags && npm publish"
   }
 }
