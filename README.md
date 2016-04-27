@@ -7,8 +7,9 @@ UAO table
 ---------
 
 You can find the original UAO table from:
-https://moztw.org/docs/big5/table/uao250-b2u.txt
-https://moztw.org/docs/big5/table/uao250-u2b.txt
+
+* https://moztw.org/docs/big5/table/uao250-b2u.txt
+* https://moztw.org/docs/big5/table/uao250-u2b.txt
 
 Changelog
 ---------
