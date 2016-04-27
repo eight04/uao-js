@@ -1,3 +1,5 @@
+/* eslint no-console: 0 */
+
 var uao = require("../index.js"),
 
     text = "一小段中文測試♥一小段中文测试♥中国の短いテスト♥";
