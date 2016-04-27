@@ -21,7 +21,7 @@ function decode(bytes) {
 	var table = require("./table/b2u.json"),
 		i = 0, result = "";
 	for (; i < bytes.length - 1; i++) {
-		if (bytes.charCodeAt(i) > 0x80) {
+		if (bytes.charCodeAt(i) > 0x80 && table[bytes[i] + bytes[i + 1]]) {
 			result += table[bytes[i] + bytes[i + 1]];
 			i++;
 		} else {
