@@ -54,7 +54,7 @@ module.exports = {
 				return decode(table, text);
 			});
 		}
-		return Promise.resolve(encode(tableCache.b2u, text));
+		return Promise.resolve(decode(tableCache.b2u, text));
 	},
 	encodeSync(text, error, createTable = createEncodeTableSync) {
 		if (!tableCache.u2b) {
