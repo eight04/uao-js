@@ -55,6 +55,10 @@ You can find the original UAO table from:
 Changelog
 ---------
 
+* 1.0.1 (Jan 20, 2017)
+
+	- Fix decode error.
+
 * 1.0.0 (Jan 20, 2017)
 
 	- API changed. Use async.
